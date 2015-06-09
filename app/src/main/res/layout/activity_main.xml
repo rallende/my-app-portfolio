@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#DFEAF1"
+    tools:context=".MainActivity"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView android:text="@string/activity_main_title" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/spotify_streamer"
+            android:id="@+id/button1"
+            android:layout_gravity="center_horizontal"
+            android:capitalize="characters"
+            android:layout_margin="5dp"
+            android:background="#F08C35"
+            android:onClick="clicked"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/scores"
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal"
+            android:capitalize="characters"
+            android:layout_margin="5dp"
+            android:background="#F08C35"
+            android:onClick="clicked"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/library"
+            android:id="@+id/button3"
+            android:layout_gravity="center_horizontal"
+            android:capitalize="characters"
+            android:layout_margin="5dp"
+            android:background="#F08C35"
+            android:onClick="clicked"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bigger"
+            android:id="@+id/button4"
+            android:layout_gravity="center_horizontal"
+            android:capitalize="characters"
+            android:layout_margin="5dp"
+            android:background="#F08C35"
+            android:onClick="clicked"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/xyz"
+            android:id="@+id/button5"
+            android:layout_gravity="center_horizontal"
+            android:capitalize="characters"
+            android:layout_margin="5dp"
+            android:background="#F08C35"
+            android:onClick="clicked"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/capstone"
+            android:id="@+id/button6"
+            android:layout_gravity="center_horizontal"
+            android:capitalize="characters"
+            android:layout_margin="5dp"
+            android:background="#CD0E3E"
+            android:textColor="#ffffff"
+            android:onClick="clicked"/>
+
+    </LinearLayout>
+
+</LinearLayout>
